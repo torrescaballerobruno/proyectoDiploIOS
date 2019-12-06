@@ -2,3 +2,4 @@ Pods/
 .DS_Store
 ProyectoDiploIOS.xcworkspace/xcuserdata/
 ProyectoDiploIOS.xcodeproj/xcuserdata/richard_ohg.xcuserdatad/
+*.pbxproj
