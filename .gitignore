@@ -3,3 +3,4 @@ Pods/
 ProyectoDiploIOS.xcworkspace/xcuserdata/
 ProyectoDiploIOS.xcodeproj/xcuserdata/richard_ohg.xcuserdatad/
 *.pbxproj
+ProyectoDiploIOS/GoogleService-Info.plist
