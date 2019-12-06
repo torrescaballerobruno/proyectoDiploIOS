@@ -13,8 +13,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
 
 
+    @IBAction func userSelected(_ sender: UIButton) {
+        var foo = LoginViewController()
+        
+        present(foo, animated: true)
+        
+    }
+    
+    @IBAction func commerceSelected(_ sender: UIButton) {
+    }
 }
 
