@@ -10,10 +10,11 @@ import Foundation
 import UIKit
 
 struct Service {
+    var id: String
     var description: String
     var price: Double
     var rating: Int
-    var pictures: [UIImage]
+    var pictures: [UIImage]?
     var hirings: Int
-    var comments: [Comment]
+    var comments: [Comment]?
 }

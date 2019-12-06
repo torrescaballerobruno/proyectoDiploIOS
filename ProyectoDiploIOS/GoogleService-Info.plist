@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1057201937490-c6p63rthbumavdr1sbshrm36ppc5g6kj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1057201937490-c6p63rthbumavdr1sbshrm36ppc5g6kj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyACJMKulrn-Dp01OzlXPoNuqa5rFr9tHx8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1057201937490</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>unam.ProyectoDiploIOS</string>
+	<key>PROJECT_ID</key>
+	<string>goldenguide-ad3f5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>goldenguide-ad3f5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1057201937490:ios:562b1e3e6113a00845938b</string>
+	<key>DATABASE_URL</key>
+	<string>https://goldenguide-ad3f5.firebaseio.com</string>
+</dict>
+</plist>
