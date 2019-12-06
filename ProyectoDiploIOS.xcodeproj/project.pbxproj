@@ -20,6 +20,10 @@
 		E12A79342398A1ED003C7F42 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A79332398A1ED003C7F42 /* Comment.swift */; };
 		E12A79362398A567003C7F42 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A79352398A567003C7F42 /* User.swift */; };
 		E12A79382398A949003C7F42 /* Hiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A79372398A949003C7F42 /* Hiring.swift */; };
+		E12A793A2398BD48003C7F42 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E12A79392398BD48003C7F42 /* GoogleService-Info.plist */; };
+		E12A793D2399ECA5003C7F42 /* UserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A793C2399ECA5003C7F42 /* UserServices.swift */; };
+		E12A793F2399F920003C7F42 /* ServerUserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A793E2399F920003C7F42 /* ServerUserServices.swift */; };
+		E12A79432399FD3C003C7F42 /* ServiceServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A79422399FD3C003C7F42 /* ServiceServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		E12A79332398A1ED003C7F42 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		E12A79352398A567003C7F42 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E12A79372398A949003C7F42 /* Hiring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiring.swift; sourceTree = "<group>"; };
+		E12A79392398BD48003C7F42 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E12A793C2399ECA5003C7F42 /* UserServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServices.swift; sourceTree = "<group>"; };
+		E12A793E2399F920003C7F42 /* ServerUserServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerUserServices.swift; sourceTree = "<group>"; };
+		E12A79422399FD3C003C7F42 /* ServiceServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceServices.swift; sourceTree = "<group>"; };
 		F16D1AB63EC7760793E5CB98 /* Pods_ProyectoDiploIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoDiploIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,6 +100,7 @@
 		E12A791723989319003C7F42 /* ProyectoDiploIOS */ = {
 			isa = PBXGroup;
 			children = (
+				E12A793B2399EC56003C7F42 /* Services */,
 				E12A792C23989E7A003C7F42 /* Models */,
 				E12A791823989319003C7F42 /* AppDelegate.swift */,
 				E12A791A23989319003C7F42 /* SceneDelegate.swift */,
@@ -100,6 +109,7 @@
 				E12A79212398931E003C7F42 /* Assets.xcassets */,
 				E12A79232398931E003C7F42 /* LaunchScreen.storyboard */,
 				E12A79262398931E003C7F42 /* Info.plist */,
+				E12A79392398BD48003C7F42 /* GoogleService-Info.plist */,
 			);
 			path = ProyectoDiploIOS;
 			sourceTree = "<group>";
@@ -115,6 +125,16 @@
 				E12A79372398A949003C7F42 /* Hiring.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E12A793B2399EC56003C7F42 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E12A793C2399ECA5003C7F42 /* UserServices.swift */,
+				E12A793E2399F920003C7F42 /* ServerUserServices.swift */,
+				E12A79422399FD3C003C7F42 /* ServiceServices.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E12A79252398931E003C7F42 /* LaunchScreen.storyboard in Resources */,
+				E12A793A2398BD48003C7F42 /* GoogleService-Info.plist in Resources */,
 				E12A79222398931E003C7F42 /* Assets.xcassets in Resources */,
 				E12A792023989319003C7F42 /* Main.storyboard in Resources */,
 			);
@@ -250,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12A793F2399F920003C7F42 /* ServerUserServices.swift in Sources */,
 				E12A79322398A1D3003C7F42 /* Address.swift in Sources */,
 				E12A792E23989E94003C7F42 /* ServerUser.swift in Sources */,
+				E12A793D2399ECA5003C7F42 /* UserServices.swift in Sources */,
 				E12A791D23989319003C7F42 /* ViewController.swift in Sources */,
+				E12A79432399FD3C003C7F42 /* ServiceServices.swift in Sources */,
 				E12A79342398A1ED003C7F42 /* Comment.swift in Sources */,
 				E12A79362398A567003C7F42 /* User.swift in Sources */,
 				E12A793023989EC2003C7F42 /* Service.swift in Sources */,
